@@ -28,6 +28,7 @@ def autom(j,k):
 	myDynamicElement = driver.find_element_by_id("ImageButton1")
 
 	driver.find_element_by_id('ImageButton1').click()
+	driver.close()
 
 k = [u'Onion', u'Cabbage', u'Cauliflower', u'Brinjal', u'Tomato']
 
